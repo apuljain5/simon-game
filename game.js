@@ -67,7 +67,7 @@ function animatePress(currentColor) {
   }, 100);
 }
 
-$(document).on("keypress", () => {
+$(document).on("click", () => {
   if (started === 1) {
     started++;
     nextSequence();
